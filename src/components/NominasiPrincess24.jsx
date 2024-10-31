@@ -3,21 +3,21 @@ import { Container, Row} from "react-bootstrap";
 import { Navigation, Pagination} from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import 'swiper/css';
-import 'swiper/css/navigation';
+import 'swiper/css'; 
+import 'swiper/css/navigation'; 
 import 'swiper/css/pagination'; 
 import 'swiper/css/scrollbar'; 
 
-import AkariHime from "../assets/NOMINASI/PRINCESS/AKARI_HIME.png";
-import Givie from "../assets/NOMINASI/PRINCESS/GIVIE.png";
-import Iruu from "../assets/NOMINASI/PRINCESS/IRUU.png";
-import Jiyaa from "../assets/NOMINASI/PRINCESS/JIYAA.png";
-import Kelilypans from "../assets/NOMINASI/PRINCESS/KELILYPANS.png";
-import Leonyque from "../assets/NOMINASI/PRINCESS/LEONYQUE.png";
-import Pikook from "../assets/NOMINASI/PRINCESS/PIKOOK.png";
-import Saltyclove from "../assets/NOMINASI/PRINCESS/SALTYCLOVE.png";
-import Vinlyue from "../assets/NOMINASI/PRINCESS/VINLYUE.png";
-import Yoshika from "../assets/NOMINASI/PRINCESS/YOSHIKA.png";
+import Ailin from "../assets/DUA_EMPAT/NOMINASI/COSPLAY_PRINCESS/Ailin.png";
+import Ann from "../assets/DUA_EMPAT/NOMINASI/COSPLAY_PRINCESS/Ann.png";
+import Cremegg from "../assets/DUA_EMPAT/NOMINASI/COSPLAY_PRINCESS/creme_gg.png";
+import Cyra from "../assets/DUA_EMPAT/NOMINASI/COSPLAY_PRINCESS/Cyra.png";
+import Kyomi from "../assets/DUA_EMPAT/NOMINASI/COSPLAY_PRINCESS/Kyomi.png";
+import Rai from "../assets/DUA_EMPAT/NOMINASI/COSPLAY_PRINCESS/Rai.png";
+import Tata from "../assets/DUA_EMPAT/NOMINASI/COSPLAY_PRINCESS/Tata.png";
+import Yura from "../assets/DUA_EMPAT/NOMINASI/COSPLAY_PRINCESS/Yura.png";
+import Yuta from "../assets/DUA_EMPAT/NOMINASI/COSPLAY_PRINCESS/Yuta.png";
+import Zmithereens from "../assets/DUA_EMPAT/NOMINASI/COSPLAY_PRINCESS/Zmithereens.png";
 
 function NominasiPrincess24() {
     return (
@@ -51,7 +51,7 @@ function NominasiPrincess24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={AkariHime} alt="Castro" className="img" />
+                                            <img src={Ailin} alt="Ailin" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -62,7 +62,7 @@ function NominasiPrincess24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={Givie} alt="Castro" className="img" />
+                                            <img src={Ann} alt="Ann" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -73,7 +73,7 @@ function NominasiPrincess24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={Iruu} alt="Castro" className="img" />
+                                            <img src={Cremegg} alt="Cremegg" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -84,7 +84,7 @@ function NominasiPrincess24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={Jiyaa} alt="Castro" className="img" />
+                                            <img src={Cyra} alt="Cyra" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -95,7 +95,7 @@ function NominasiPrincess24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={Kelilypans} alt="Castro" className="img" />
+                                            <img src={Kyomi} alt="Kyomi" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -106,7 +106,7 @@ function NominasiPrincess24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={Leonyque} alt="Castro" className="img" />
+                                            <img src={Rai} alt="Rai" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -117,7 +117,7 @@ function NominasiPrincess24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={Pikook} alt="Castro" className="img" />
+                                            <img src={Tata} alt="Tata" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -128,7 +128,7 @@ function NominasiPrincess24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={Saltyclove} alt="Castro" className="img" />
+                                            <img src={Yura} alt="Yura" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -139,7 +139,7 @@ function NominasiPrincess24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={Vinlyue} alt="Castro" className="img" />
+                                            <img src={Yuta} alt="Yuta" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -150,7 +150,7 @@ function NominasiPrincess24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={Yoshika} alt="Castro" className="img" />
+                                            <img src={Zmithereens} alt="Zmithereens" className="img" />
                                         </div>
                                     </div>
                                 </div>

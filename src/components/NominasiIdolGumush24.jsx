@@ -8,14 +8,20 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar'; 
 
-import ALIN from "../assets/NOMINASI/IDOL_GEMES/ALIN.png";
-import ARA from "../assets/NOMINASI/IDOL_GEMES/ARA.png";
-import DANTI from "../assets/NOMINASI/IDOL_GEMES/DANTI.png";
-import DEA from "../assets/NOMINASI/IDOL_GEMES/DEA.png";
-import ELIN from "../assets/NOMINASI/IDOL_GEMES/ELIN.png";
-import IVY from "../assets/NOMINASI/IDOL_GEMES/IVY.png";
-import ROSA from "../assets/NOMINASI/IDOL_GEMES/ROSA.png";
-import YOCHAN from "../assets/NOMINASI/IDOL_GEMES/YOCHAN.png";
+import Aanya from "../assets/DUA_EMPAT/NOMINASI/IDOL_GEMESH/Aanya.png";
+import Chicca from "../assets/DUA_EMPAT/NOMINASI/IDOL_GEMESH/Chicca.png";
+import Dhanti from "../assets/DUA_EMPAT/NOMINASI/IDOL_GEMESH/Dhanti.png";
+import Iel from "../assets/DUA_EMPAT/NOMINASI/IDOL_GEMESH/Iel.png";
+import Ivy from "../assets/DUA_EMPAT/NOMINASI/IDOL_GEMESH/Ivy.png";
+import Jazzy from "../assets/DUA_EMPAT/NOMINASI/IDOL_GEMESH/Jazzy.png";
+import Naomi from "../assets/DUA_EMPAT/NOMINASI/IDOL_GEMESH/Naomi.png";
+import Olin from "../assets/DUA_EMPAT/NOMINASI/IDOL_GEMESH/Olin.png";
+import Rin from "../assets/DUA_EMPAT/NOMINASI/IDOL_GEMESH/Rin.png";
+import Sasa from "../assets/DUA_EMPAT/NOMINASI/IDOL_GEMESH/Sasa.png";
+import Valeta from "../assets/DUA_EMPAT/NOMINASI/IDOL_GEMESH/Valeta.png";
+import Vanesa from "../assets/DUA_EMPAT/NOMINASI/IDOL_GEMESH/Vanesa.png";
+import Vinly from "../assets/DUA_EMPAT/NOMINASI/IDOL_GEMESH/Vinly.png";
+import Zha from "../assets/DUA_EMPAT/NOMINASI/IDOL_GEMESH/Zha.png";
 
 
 function NominasiIdolGumush24() {
@@ -50,7 +56,7 @@ function NominasiIdolGumush24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={ALIN} alt="ALIN" className="img" />
+                                            <img src={Aanya} alt="Aanya" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -61,7 +67,7 @@ function NominasiIdolGumush24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={ARA} alt="ARA" className="img" />
+                                            <img src={Chicca} alt="Chicca" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -72,7 +78,7 @@ function NominasiIdolGumush24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={DANTI} alt="DANTI" className="img" />
+                                            <img src={Dhanti} alt="Dhanti" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -83,7 +89,7 @@ function NominasiIdolGumush24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={DEA} alt="DEA" className="img" />
+                                            <img src={Iel} alt="Iel" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -94,7 +100,7 @@ function NominasiIdolGumush24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={ELIN} alt="ELIN" className="img" />
+                                            <img src={Ivy} alt="Ivy" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -105,7 +111,7 @@ function NominasiIdolGumush24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={IVY} alt="IVY" className="img" />
+                                            <img src={Jazzy} alt="Jazzy" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -116,7 +122,7 @@ function NominasiIdolGumush24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={ROSA} alt="ROSA" className="img" />
+                                            <img src={Naomi} alt="Naomi" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -127,7 +133,73 @@ function NominasiIdolGumush24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={YOCHAN} alt="YOCHAN" className="img" />
+                                            <img src={Olin} alt="Olin" className="img" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='carousel-nominasi-isi'>
+                                <div className="carousel-nominasi-box">
+                                    <div className="nom1">
+                                        <div className="img-container">
+                                            <img src={Rin} alt="Rin" className="img" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='carousel-nominasi-isi'>
+                                <div className="carousel-nominasi-box">
+                                    <div className="nom1">
+                                        <div className="img-container">
+                                            <img src={Sasa} alt="Sasa" className="img" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='carousel-nominasi-isi'>
+                                <div className="carousel-nominasi-box">
+                                    <div className="nom1">
+                                        <div className="img-container">
+                                            <img src={Valeta} alt="Valeta" className="img" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='carousel-nominasi-isi'>
+                                <div className="carousel-nominasi-box">
+                                    <div className="nom1">
+                                        <div className="img-container">
+                                            <img src={Vanesa} alt="Vanesa" className="img" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='carousel-nominasi-isi'>
+                                <div className="carousel-nominasi-box">
+                                    <div className="nom1">
+                                        <div className="img-container">
+                                            <img src={Vinly} alt="Vinly" className="img" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='carousel-nominasi-isi'>
+                                <div className="carousel-nominasi-box">
+                                    <div className="nom1">
+                                        <div className="img-container">
+                                            <img src={Zha} alt="Zha" className="img" />
                                         </div>
                                     </div>
                                 </div>

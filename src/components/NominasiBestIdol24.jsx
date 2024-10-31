@@ -1,21 +1,21 @@
 import React from "react";
 import { Container, Row} from "react-bootstrap";
 import { Navigation, Pagination} from 'swiper/modules';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from 'swiper/react'; 
 
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar'; 
 
-import CAMELIA_NOIR from "../assets/NOMINASI/IDOL/CAMELIA_NOIR.png";
-import GOCHIKARA from "../assets/NOMINASI/IDOL/GOCHIKARA.png";
-import IRIS from "../assets/NOMINASI/IDOL/IRIS.png";
-import KOHI_SEKAI from "../assets/NOMINASI/IDOL/KOHI_SEKAI.png";
-import MINERVA_LAND from "../assets/NOMINASI/IDOL/MINERVA_LAND.png";
-import SAYWON from "../assets/NOMINASI/IDOL/SAYWON.png";
-import TENSEITION from "../assets/NOMINASI/IDOL/TENSEITION.png";
-import ZA_STEIRO from "../assets/NOMINASI/IDOL/ZA_STEIRO.png";
+import Aethersphere from "../assets/DUA_EMPAT/NOMINASI/IDOL/Aethersphere.png";
+import CameliaNoir from "../assets/DUA_EMPAT/NOMINASI/IDOL/CameliaNoir.png";
+import Eclipse from "../assets/DUA_EMPAT/NOMINASI/IDOL/Eclipse.png";
+import IrisIdol from "../assets/DUA_EMPAT/NOMINASI/IDOL/IrisIdol.png";
+import KohiSekai from "../assets/DUA_EMPAT/NOMINASI/IDOL/KohiSekai.png";
+import MinervaLand from "../assets/DUA_EMPAT/NOMINASI/IDOL/MinervaLand.png";
+import Oriana from "../assets/DUA_EMPAT/NOMINASI/IDOL/Oriana.png";
+import Shevoid from "../assets/DUA_EMPAT/NOMINASI/IDOL/Shevoid.png";
 
 
 function NominasiBestIdol24() {
@@ -50,7 +50,7 @@ function NominasiBestIdol24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={CAMELIA_NOIR} alt="CAMELIA_NOIR" className="img" />
+                                            <img src={Aethersphere} alt="Aethersphere" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -61,7 +61,7 @@ function NominasiBestIdol24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={GOCHIKARA} alt="GOCHIKARA" className="img" />
+                                            <img src={CameliaNoir} alt="CameliaNoir" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -72,7 +72,7 @@ function NominasiBestIdol24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={IRIS} alt="IRIS" className="img" />
+                                            <img src={Eclipse} alt="Eclipse" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -83,7 +83,7 @@ function NominasiBestIdol24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={KOHI_SEKAI} alt="KOHI_SEKAI" className="img" />
+                                            <img src={IrisIdol} alt="KOHI_SEKAI" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -94,7 +94,7 @@ function NominasiBestIdol24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={MINERVA_LAND} alt="MINERVA_LAND" className="img" />
+                                            <img src={KohiSekai} alt="KohiSekai" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -105,7 +105,7 @@ function NominasiBestIdol24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={SAYWON} alt="SAYWON" className="img" />
+                                            <img src={MinervaLand} alt="SAYWON" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -116,7 +116,7 @@ function NominasiBestIdol24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={TENSEITION} alt="TENSEITION" className="img" />
+                                            <img src={Oriana} alt="Oriana" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -127,7 +127,7 @@ function NominasiBestIdol24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={ZA_STEIRO} alt="ZA_STEIRO" className="img" />
+                                            <img src={Shevoid} alt="Shevoid" className="img" />
                                         </div>
                                     </div>
                                 </div>

@@ -8,16 +8,16 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';  
 
-import AKID from "../assets/NOMINASI/KOMUNITAS/AKID.png";
-import BAID from "../assets/NOMINASI/KOMUNITAS/BAID.png";
-import FAIJO from "../assets/NOMINASI/KOMUNITAS/FAIJO.png";
-import FGO_SKY from "../assets/NOMINASI/KOMUNITAS/FGO_SKY.png";
-import JARI from "../assets/NOMINASI/KOMUNITAS/JARI.png";
-import JOGJAGAKURE from "../assets/NOMINASI/KOMUNITAS/JOGJAGAKURE.png";
-import MIHOYO from "../assets/NOMINASI/KOMUNITAS/MIHOYO.png";
-import NAKAMAIS from "../assets/NOMINASI/KOMUNITAS/NAKAMAIS.png";
-import ONE_OK_ROCK from "../assets/NOMINASI/KOMUNITAS/ONE_OK_ROCK.png";
-import YOICO from "../assets/NOMINASI/KOMUNITAS/YOICO.png";
+import Beylangkon from "../assets/DUA_EMPAT/NOMINASI/COMMUNITY/Beylangkon.png";
+import DnDJogja from "../assets/DUA_EMPAT/NOMINASI/COMMUNITY/DnDJogja.png";
+import Faijo from "../assets/DUA_EMPAT/NOMINASI/COMMUNITY/Faijo.png";
+import Idolmaster from "../assets/DUA_EMPAT/NOMINASI/COMMUNITY/Idolmaster.png";
+import ItashaYogya from "../assets/DUA_EMPAT/NOMINASI/COMMUNITY/ItashaYogya.png";
+import JogjaRiichi from "../assets/DUA_EMPAT/NOMINASI/COMMUNITY/JogjaRiichi.png";
+import LoveLiveJogja from "../assets/DUA_EMPAT/NOMINASI/COMMUNITY/LoveLiveJogja.png";
+import MihoyoJogja from "../assets/DUA_EMPAT/NOMINASI/COMMUNITY/MihoyoJogja.png";
+import YogyaSquadraAssociation from "../assets/DUA_EMPAT/NOMINASI/COMMUNITY/YogyaSquadraAssociation.png";
+
 
 function NominasiKomunitas24() {
     return (
@@ -51,7 +51,7 @@ function NominasiKomunitas24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={AKID} alt="AKID" className="img" />
+                                            <img src={Beylangkon} alt="Beylangkon" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -62,7 +62,7 @@ function NominasiKomunitas24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={BAID} alt="BAID" className="img" />
+                                            <img src={DnDJogja} alt="DnDJogja" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -73,7 +73,7 @@ function NominasiKomunitas24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={FAIJO} alt="FAIJO" className="img" />
+                                            <img src={Faijo} alt="Faijo" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -84,7 +84,7 @@ function NominasiKomunitas24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={FGO_SKY} alt="FGO_SKY" className="img" />
+                                            <img src={Idolmaster} alt="Idolmaster" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -95,7 +95,7 @@ function NominasiKomunitas24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={JARI} alt="JARI" className="img" />
+                                            <img src={ItashaYogya} alt="ItashaYogya" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -106,7 +106,7 @@ function NominasiKomunitas24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={JOGJAGAKURE} alt="JOGJAGAKURE" className="img" />
+                                            <img src={JogjaRiichi} alt="JogjaRiichi" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -117,7 +117,7 @@ function NominasiKomunitas24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={MIHOYO} alt="MIHOYO" className="img" />
+                                            <img src={LoveLiveJogja} alt="LoveLiveJogja" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -128,7 +128,7 @@ function NominasiKomunitas24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={NAKAMAIS} alt="NAKAMAIS" className="img" />
+                                            <img src={MihoyoJogja} alt="MihoyoJogja" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -139,18 +139,7 @@ function NominasiKomunitas24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={ONE_OK_ROCK} alt="ONE_OK_ROCK" className="img" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className='carousel-nominasi-isi'>
-                                <div className="carousel-nominasi-box">
-                                    <div className="nom1">
-                                        <div className="img-container">
-                                            <img src={YOICO} alt="YOICO" className="img" />
+                                            <img src={YogyaSquadraAssociation} alt="YogyaSquadraAssociation" className="img" />
                                         </div>
                                     </div>
                                 </div>

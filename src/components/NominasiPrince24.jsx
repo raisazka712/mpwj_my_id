@@ -8,18 +8,18 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';  
 
-import Castro from "../assets/NOMINASI/PRINCE/CASTRO.png";
-import Atiya from "../assets/NOMINASI/PRINCE/ATIYA.png";
-import Clise from "../assets/NOMINASI/PRINCE/CLISE.png";
-import Fahrul from "../assets/NOMINASI/PRINCE/FAHRUL.png";
-import Gepan from "../assets/NOMINASI/PRINCE/GEPAN.png";
-import Jei from "../assets/NOMINASI/PRINCE/JEI.png";
-import Noe from "../assets/NOMINASI/PRINCE/NOE.png";
-import Lizzy from "../assets/NOMINASI/PRINCE/LIZZY.png";
-import Raiza from "../assets/NOMINASI/PRINCE/RAIZA.png";
-import Sano from "../assets/NOMINASI/PRINCE/SANO.png";
+import Fadli from "../assets/DUA_EMPAT/NOMINASI/COSPLAY_PRINCE/fadli.png";
+import Billy from "../assets/DUA_EMPAT/NOMINASI/COSPLAY_PRINCE/Billy.png";
+import Kanon from "../assets/DUA_EMPAT/NOMINASI/COSPLAY_PRINCE/Kanon.png";
+import Gepan from "../assets/DUA_EMPAT/NOMINASI/COSPLAY_PRINCE/gepan.png";
+import Kaoru from "../assets/DUA_EMPAT/NOMINASI/COSPLAY_PRINCE/Kaoru_Koganei.png";
+import Lizzy from "../assets/DUA_EMPAT/NOMINASI/COSPLAY_PRINCE/Lizzy.png";
+import Meiza from "../assets/DUA_EMPAT/NOMINASI/COSPLAY_PRINCE/Meiza.png";
+import Nora from "../assets/DUA_EMPAT/NOMINASI/COSPLAY_PRINCE/Nora.png";
+import Shouki from "../assets/DUA_EMPAT/NOMINASI/COSPLAY_PRINCE/Shouki.png";
+import Wealbird from "../assets/DUA_EMPAT/NOMINASI/COSPLAY_PRINCE/Wealbird.png";
 
-function NominasiPrince24() {
+function NominasiPrince24() { 
     return (
         <div className="nominasi-container">
             <Container>
@@ -51,7 +51,7 @@ function NominasiPrince24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={Atiya} alt="Castro" className="img" />
+                                            <img src={Fadli} alt="Fadli" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -62,7 +62,7 @@ function NominasiPrince24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={Castro} alt="Castro" className="img" />
+                                            <img src={Gepan} alt="Gepan" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -73,7 +73,7 @@ function NominasiPrince24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={Clise} alt="Castro" className="img" />
+                                            <img src={Billy} alt="Billy" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -84,7 +84,7 @@ function NominasiPrince24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={Fahrul} alt="Castro" className="img" />
+                                            <img src={Kanon} alt="Kanon" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -95,7 +95,7 @@ function NominasiPrince24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={Gepan} alt="Castro" className="img" />
+                                            <img src={Kaoru} alt="Kaoru" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -106,7 +106,7 @@ function NominasiPrince24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={Jei} alt="Castro" className="img" />
+                                            <img src={Meiza} alt="Meiza" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -117,7 +117,7 @@ function NominasiPrince24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={Lizzy} alt="Castro" className="img" />
+                                            <img src={Lizzy} alt="Lizzy" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -128,7 +128,7 @@ function NominasiPrince24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={Noe} alt="Castro" className="img" />
+                                            <img src={Nora} alt="Nora" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -139,7 +139,7 @@ function NominasiPrince24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={Raiza} alt="Castro" className="img" />
+                                            <img src={Shouki} alt="Shouki" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -150,7 +150,7 @@ function NominasiPrince24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={Sano} alt="Castro" className="img" />
+                                            <img src={Wealbird} alt="Wealbird" className="img" />
                                         </div>
                                     </div>
                                 </div>

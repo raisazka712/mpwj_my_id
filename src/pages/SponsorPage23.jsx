@@ -1,7 +1,7 @@
 import React from 'react'
-import Sponsor from '../components/Sponsor';
+import Sponsor from '../components/Sponsor23';
 
-const SponsorPage = () => {
+const SponsorPage23 = () => {
   return (
     <div className='SponsorPage'>
       <header className="w-100 min-vh-100">
@@ -13,4 +13,4 @@ const SponsorPage = () => {
   )
 }
 
-export default SponsorPage;
+export default SponsorPage23;

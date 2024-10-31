@@ -8,15 +8,16 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar'; 
 
-import BRING_BACK_THE_SANITY from "../assets/NOMINASI/BAND/BRING_BACK_THE_SANITY.png";
-import CROSSXOVER from "../assets/NOMINASI/BAND/CROSSXOVER.png";
-import DEWOXDEATH from "../assets/NOMINASI/BAND/DEWOXDEATH.png";
-import DWD from "../assets/NOMINASI/BAND/DWD.png";
-import FUNMERI from "../assets/NOMINASI/BAND/FUNMERI.png";
-import HEAVY_MACHINE_GUN from "../assets/NOMINASI/BAND/HEAVY_MACHINE_GUN.png";
-import KEMONO_FURENZU from "../assets/NOMINASI/BAND/KEMONO_FURENZU.png";
-import SHITAGI_UMA from "../assets/NOMINASI/BAND/SHITAGI_UMA.png";
-import TwoN2 from "../assets/NOMINASI/BAND/TwoN2.png";
+import BST221B2 from "../assets/DUA_EMPAT/NOMINASI/BAND/BST221B2.png";
+import CrossxOver from "../assets/DUA_EMPAT/NOMINASI/BAND/CrossxOver.png";
+import Funnmeri from "../assets/DUA_EMPAT/NOMINASI/BAND/Funnmeri.png";
+import GremoryX from "../assets/DUA_EMPAT/NOMINASI/BAND/GremoryX.png";
+import IzumixSBM from "../assets/DUA_EMPAT/NOMINASI/BAND/IzumixSBM.png";
+import KemonoFurenzu from "../assets/DUA_EMPAT/NOMINASI/BAND/KemonoFurenzu.png";
+import Necomancer from "../assets/DUA_EMPAT/NOMINASI/BAND/Necomancer.png";
+import Noyushimi from "../assets/DUA_EMPAT/NOMINASI/BAND/Noyushimi.png";
+import Okuro from "../assets/DUA_EMPAT/NOMINASI/BAND/Okuro.png";
+import ShitagiUma from "../assets/DUA_EMPAT/NOMINASI/BAND/ShitagiUma.png";
 
 
 function NominasiBand24() {
@@ -27,7 +28,7 @@ function NominasiBand24() {
                 <div className="judul">
                     <div className="text-wrapper">
                         <div className="text">
-                            NOMINASI BAND 2024
+                            NOMINASI BEST BAND 2024
                         </div>
                     </div>
                 </div>
@@ -51,7 +52,7 @@ function NominasiBand24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={BRING_BACK_THE_SANITY} alt="BRING_BACK_THE_SANITY" className="img" />
+                                            <img src={BST221B2} alt="BST221B2" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -62,7 +63,7 @@ function NominasiBand24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={CROSSXOVER} alt="CROSSXOVER" className="img" />
+                                            <img src={CrossxOver} alt="CrossxOver" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -73,7 +74,7 @@ function NominasiBand24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={DEWOXDEATH} alt="DEWOXDEATH" className="img" />
+                                            <img src={Funnmeri} alt="Funnmeri" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -84,7 +85,7 @@ function NominasiBand24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={DWD} alt="DWD" className="img" />
+                                            <img src={GremoryX} alt="GremoryX" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -95,7 +96,7 @@ function NominasiBand24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={FUNMERI} alt="FUNMERI" className="img" />
+                                            <img src={IzumixSBM} alt="IzumixSBM" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -106,7 +107,7 @@ function NominasiBand24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={HEAVY_MACHINE_GUN} alt="HEAVY_MACHINE_GUN" className="img" />
+                                            <img src={KemonoFurenzu} alt="KemonoFurenzu" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -117,7 +118,7 @@ function NominasiBand24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={KEMONO_FURENZU} alt="KEMONO_FURENZU" className="img" />
+                                            <img src={Necomancer} alt="Necomancer" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -128,7 +129,7 @@ function NominasiBand24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={SHITAGI_UMA} alt="SHITAGI_UMA" className="img" />
+                                            <img src={Noyushimi} alt="Noyushimi" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -139,7 +140,18 @@ function NominasiBand24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={TwoN2} alt="TwoN2" className="img" />
+                                            <img src={Okuro} alt="Okuro" className="img" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='carousel-nominasi-isi'>
+                                <div className="carousel-nominasi-box">
+                                    <div className="nom1">
+                                        <div className="img-container">
+                                            <img src={ShitagiUma} alt="ShitagiUma" className="img" />
                                         </div>
                                     </div>
                                 </div>

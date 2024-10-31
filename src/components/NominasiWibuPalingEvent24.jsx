@@ -8,16 +8,16 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar'; 
 
-import AIMIICHA from "../assets/NOMINASI/WIBU/AIMIICHA.png";
-import CLARA from "../assets/NOMINASI/WIBU/CLARA.png";
-import FADLI from "../assets/NOMINASI/WIBU/FADLI.png";
-import FIA from "../assets/NOMINASI/WIBU/FIA.png";
-import GERDI from "../assets/NOMINASI/WIBU/GERDI.png";
-import IRGI from "../assets/NOMINASI/WIBU/IRGI.png";
-import JEREMY from "../assets/NOMINASI/WIBU/JEREMY.png";
-import REGALIA from "../assets/NOMINASI/WIBU/REGALIA.png";
-import RICK from "../assets/NOMINASI/WIBU/RICK.png";
-import SALIM from "../assets/NOMINASI/WIBU/SALIM.png";
+import Alda from "../assets/DUA_EMPAT/NOMINASI/WIBU_PALING_EVENT/Alda.png";
+import Awan_Kebakaran from "../assets/DUA_EMPAT/NOMINASI/WIBU_PALING_EVENT/Awan_Kebakaran.png";
+import Fadli from "../assets/DUA_EMPAT/NOMINASI/WIBU_PALING_EVENT/fadli.png";
+import FaaizGran from "../assets/DUA_EMPAT/NOMINASI/WIBU_PALING_EVENT/FaaizGran.png";
+import Marshall from "../assets/DUA_EMPAT/NOMINASI/WIBU_PALING_EVENT/Marshall.png";
+import Pradipta_Jati from "../assets/DUA_EMPAT/NOMINASI/WIBU_PALING_EVENT/Pradipta_Jati.png";
+import Sakurahime from "../assets/DUA_EMPAT/NOMINASI/WIBU_PALING_EVENT/Sakurahime.png";
+import Regalia from "../assets/DUA_EMPAT/NOMINASI/WIBU_PALING_EVENT/Regalia.png";
+import Rick from "../assets/DUA_EMPAT/NOMINASI/WIBU_PALING_EVENT/Rick.png"; 
+import Salim from "../assets/DUA_EMPAT/NOMINASI/WIBU_PALING_EVENT/Salim.png";
 
 function NominasiWibuPalingEvent24() {
     return (
@@ -51,7 +51,7 @@ function NominasiWibuPalingEvent24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={AIMIICHA} alt="AIMIICHA" className="img" />
+                                            <img src={Salim} alt="Salim" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -62,7 +62,7 @@ function NominasiWibuPalingEvent24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={CLARA} alt="CLARA" className="img" />
+                                            <img src={Awan_Kebakaran} alt="Awan_Kebakaran" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -73,7 +73,7 @@ function NominasiWibuPalingEvent24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={FADLI} alt="FADLI" className="img" />
+                                            <img src={Fadli} alt="Fadli" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -84,7 +84,7 @@ function NominasiWibuPalingEvent24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={FIA} alt="FIA" className="img" />
+                                            <img src={Marshall} alt="Marshall" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -95,7 +95,7 @@ function NominasiWibuPalingEvent24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={GERDI} alt="GERDI" className="img" />
+                                            <img src={Pradipta_Jati} alt="Pradipta_Jati" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -106,7 +106,7 @@ function NominasiWibuPalingEvent24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={IRGI} alt="IRGI" className="img" />
+                                            <img src={Regalia} alt="Regalia" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -117,7 +117,7 @@ function NominasiWibuPalingEvent24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={JEREMY} alt="JEREMY" className="img" />
+                                            <img src={Rick} alt="Rick" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -128,7 +128,7 @@ function NominasiWibuPalingEvent24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={REGALIA} alt="REGALIA" className="img" />
+                                            <img src={Sakurahime} alt="Sakurahime" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -139,7 +139,7 @@ function NominasiWibuPalingEvent24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={RICK} alt="RICK" className="img" />
+                                            <img src={Alda} alt="Alda" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -150,7 +150,7 @@ function NominasiWibuPalingEvent24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={SALIM} alt="SALIM" className="img" />
+                                            <img src={FaaizGran} alt="FaaizGran" className="img" />
                                         </div>
                                     </div>
                                 </div>

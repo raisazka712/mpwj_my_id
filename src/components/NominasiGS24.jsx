@@ -5,19 +5,19 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+import 'swiper/css/pagination'; 
 import 'swiper/css/scrollbar';  
 
-import AMAI_MONOGATARI from "../assets/NOMINASI/GUEST_STAR/AMAI_MONOGATARI.png";
-import ANDY_PHEBE from "../assets/NOMINASI/GUEST_STAR/ANDY_PHEBE.png";
-import ANIFUNKOT from "../assets/NOMINASI/GUEST_STAR/ANIFUNKOT.png";
-import CHLOE_PAWAPUA from "../assets/NOMINASI/GUEST_STAR/CHLOE_PAWAPUA.png";
-import GIGA_OF_SPIRIT from "../assets/NOMINASI/GUEST_STAR/GIGA_OF_SPIRIT.png";
-import NEKONOI from "../assets/NOMINASI/GUEST_STAR/NEKONOI.png";
-import NEXTNATIVE from "../assets/NOMINASI/GUEST_STAR/NEXTNATIVE.png";
-import NOYUSHIMI from "../assets/NOMINASI/GUEST_STAR/NOYUSHIMI.png";
-import PUNIPUN from "../assets/NOMINASI/GUEST_STAR/PUNIPUN.png";
-import YAGAICHI from "../assets/NOMINASI/GUEST_STAR/YAGAICHI.png";
+import Anizu from "../assets/DUA_EMPAT/NOMINASI/GUEST_STAR/Anizu.png";
+import FiDelxKameAam from "../assets/DUA_EMPAT/NOMINASI/GUEST_STAR/FiDelxKameAam.png";
+import Giga_of_Spirit from "../assets/DUA_EMPAT/NOMINASI/GUEST_STAR/Giga_of_Spirit.png";
+import HokageSantuy from "../assets/DUA_EMPAT/NOMINASI/GUEST_STAR/HokageSantuy.png";
+import Idolize from "../assets/DUA_EMPAT/NOMINASI/GUEST_STAR/Idolize.png";
+import Roselewis from "../assets/DUA_EMPAT/NOMINASI/GUEST_STAR/Roselewis.png";
+import SCUM from "../assets/DUA_EMPAT/NOMINASI/GUEST_STAR/SCUM.png";
+import TaikiTheo from "../assets/DUA_EMPAT/NOMINASI/GUEST_STAR/TaikiTheo.png";
+import TLCG from "../assets/DUA_EMPAT/NOMINASI/GUEST_STAR/TLCG.png";
+import Tomoshibi from "../assets/DUA_EMPAT/NOMINASI/GUEST_STAR/Tomoshibi.png";
 
 function NominasiGS24() {
     return (
@@ -51,7 +51,7 @@ function NominasiGS24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={AMAI_MONOGATARI} alt="AMAI_MONOGATARI" className="img" />
+                                            <img src={Anizu} alt="Anizu" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -62,7 +62,7 @@ function NominasiGS24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={ANDY_PHEBE} alt="ANDY_PHEBE" className="img" />
+                                            <img src={FiDelxKameAam} alt="ANDY_PHEBE" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -73,7 +73,7 @@ function NominasiGS24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={ANIFUNKOT} alt="ANIFUNKOT" className="img" />
+                                            <img src={Giga_of_Spirit} alt="Giga_of_Spirit" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -84,7 +84,7 @@ function NominasiGS24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={CHLOE_PAWAPUA} alt="CHLOE_PAWAPUA" className="img" />
+                                            <img src={HokageSantuy} alt="HokageSantuy" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -95,7 +95,7 @@ function NominasiGS24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={GIGA_OF_SPIRIT} alt="GIGA_OF_SPIRIT" className="img" />
+                                            <img src={Idolize} alt="Idolize" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -106,7 +106,7 @@ function NominasiGS24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={NEKONOI} alt="NEKONOI" className="img" />
+                                            <img src={Roselewis} alt="Roselewis" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -117,7 +117,7 @@ function NominasiGS24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={NEXTNATIVE} alt="NEXTNATIVE" className="img" />
+                                            <img src={SCUM} alt="SCUM" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -128,7 +128,7 @@ function NominasiGS24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={NOYUSHIMI} alt="NOYUSHIMI" className="img" />
+                                            <img src={TaikiTheo} alt="TaikiTheo" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -139,7 +139,7 @@ function NominasiGS24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={PUNIPUN} alt="PUNIPUN" className="img" />
+                                            <img src={TLCG} alt="TLCG" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -150,7 +150,7 @@ function NominasiGS24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={YAGAICHI} alt="YAGAICHI" className="img" />
+                                            <img src={Tomoshibi} alt="Tomoshibi" className="img" />
                                         </div>
                                     </div>
                                 </div>
