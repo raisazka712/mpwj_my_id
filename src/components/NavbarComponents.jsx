@@ -46,13 +46,26 @@ function NavbarComponents() {
               <NavLink className="nav-link" exact to="/">
                 HOME
               </NavLink>
-              <NavLink className="nav-link" to="/Kategori">
-                KATEGORI
-              </NavLink>
-              <NavLink className="nav-link" to="/Nominasi">
-                NOMINASI
-              </NavLink>
-              <NavDropdown title="EVENT" id="basic-nav-dropdown">
+                            {/* Kategori Dropdown */}
+                            <NavDropdown title="KATEGORI" id="kategori-dropdown">
+                <NavLink className="dropdown-item" to="/Kategori2023">
+                  2023
+                </NavLink>
+                <NavLink className="dropdown-item" to="/Kategori2024">
+                  2024
+                </NavLink>
+              </NavDropdown>
+              {/* Nominasi Dropdown */}
+              <NavDropdown title="NOMINASI" id="nominasi-dropdown">
+                <NavLink className="dropdown-item" to="/Nominasi2023">
+                  2023
+                </NavLink>
+                <NavLink className="dropdown-item" to="/Nominasi2024"> 
+                  2024
+                </NavLink>
+              </NavDropdown>
+              {/* Event Dropdown */}
+              <NavDropdown title="EVENT" id="event-dropdown">
                 <NavLink className="dropdown-item" to="/Event2023">
                   2023
                 </NavLink>
@@ -60,9 +73,15 @@ function NavbarComponents() {
                   2024
                 </NavLink>
               </NavDropdown>
-              <NavLink className="nav-link" to="/Sponsor">
-                SPONSOR
-              </NavLink>
+              {/* Sponsor Dropdown */}
+              <NavDropdown title="SPONSOR" id="sponsor-dropdown">
+                <NavLink className="dropdown-item" to="/Sponsor2023">
+                  2023
+                </NavLink>
+                <NavLink className="dropdown-item" to="/Sponsor2024">
+                  2024
+                </NavLink>
+              </NavDropdown>
             </Nav>
           </Navbar.Collapse>
         </Container>

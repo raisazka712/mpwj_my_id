@@ -14,7 +14,7 @@ const HomePage = () => {
   return ( 
     <div className="homepage">
       <header className="w-100 min-vh-100">
-        <div className="home w-100 min-vh-100">
+        <div className="home w-100 min-vh-100"> 
            <Header />  
            <Sejarah />
            <KategoriHome /> 
