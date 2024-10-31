@@ -2,9 +2,9 @@ import React from "react";
 import Sponsorr from "../assets/PERFORMER/sponsorr.png";
 
 
-const Sponsor = () => {
+const Sponsor23 = () => {
   return (
-    <div className="Sponsor">  
+    <div className="Sponsor">   
         <div className="judulSponsor">
             Sponsor Malam Penghargaan Wibu Jogja 2023
         </div>
@@ -16,4 +16,4 @@ const Sponsor = () => {
   )
 }
 
-export default Sponsor;
+export default Sponsor23;

@@ -8,15 +8,18 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar'; 
 
-import FINA from "../assets/NOMINASI/MC/FINA.png";
-import GABE from "../assets/NOMINASI/MC/GABE.png";
-import ICHAK from "../assets/NOMINASI/MC/ICHAK.png";
-import IYAN from "../assets/NOMINASI/MC/IYAN.png";
-import NANA from "../assets/NOMINASI/MC/NANA.png";
-import YODHA from "../assets/NOMINASI/MC/YODHA.png";
+import CACA_Melan from "../assets/DUA_EMPAT/NOMINASI/DYNAMIC_DUO/CACA_Melan.png";
+import CastroJei from "../assets/DUA_EMPAT/NOMINASI/DYNAMIC_DUO/CastroJei.png";
+import DoaWaifuTomCapung from "../assets/DUA_EMPAT/NOMINASI/DYNAMIC_DUO/DoaWaifuTomCapung.png";
+import FikiSaep from "../assets/DUA_EMPAT/NOMINASI/DYNAMIC_DUO/FikiSaep.png";
+import ForyscaSaskia from "../assets/DUA_EMPAT/NOMINASI/DYNAMIC_DUO/ForyscaSaskia.png";
+import HendraSasmi from "../assets/DUA_EMPAT/NOMINASI/DYNAMIC_DUO/HendraSasmi.png";
+import MiraiiFX from "../assets/DUA_EMPAT/NOMINASI/DYNAMIC_DUO/MiraiiFX.png";
+import YodhaIchak from "../assets/DUA_EMPAT/NOMINASI/DYNAMIC_DUO/YodhaIchak.png";
+import AoYamiProject from "../assets/DUA_EMPAT/NOMINASI/DYNAMIC_DUO/AoYamiProject.png";
 
 
-function NominasiMC24() {
+function NominasiDynamicDuo24() {
     return (
         <div className="nominasi-container">
             <Container>
@@ -24,7 +27,7 @@ function NominasiMC24() {
                 <div className="judul">
                     <div className="text-wrapper">
                         <div className="text">
-                            NOMINASI MC AWARDS 2024
+                            NOMINASI DYNAMIC DUO 2024
                         </div>
                     </div>
                 </div>
@@ -48,7 +51,7 @@ function NominasiMC24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={FINA} alt="FINA" className="img" />
+                                            <img src={AoYamiProject} alt="AoYamiProject" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -59,7 +62,7 @@ function NominasiMC24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={GABE} alt="GABE" className="img" />
+                                            <img src={CACA_Melan} alt="CACA_Melan" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -70,7 +73,7 @@ function NominasiMC24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={ICHAK} alt="ICHAK" className="img" />
+                                            <img src={CastroJei} alt="CastroJei" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -81,7 +84,7 @@ function NominasiMC24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={IYAN} alt="IYAN" className="img" />
+                                            <img src={DoaWaifuTomCapung} alt="DoaWaifuTomCapung" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -92,7 +95,7 @@ function NominasiMC24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={NANA} alt="NANA" className="img" />
+                                            <img src={FikiSaep} alt="FikiSaep" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -103,7 +106,40 @@ function NominasiMC24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={YODHA} alt="YODHA" className="img" />
+                                            <img src={ForyscaSaskia} alt="ForyscaSaskia" className="img" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='carousel-nominasi-isi'>
+                                <div className="carousel-nominasi-box">
+                                    <div className="nom1">
+                                        <div className="img-container">
+                                            <img src={HendraSasmi} alt="HendraSasmi" className="img" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='carousel-nominasi-isi'>
+                                <div className="carousel-nominasi-box">
+                                    <div className="nom1">
+                                        <div className="img-container">
+                                            <img src={MiraiiFX} alt="MiraiiFX" className="img" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='carousel-nominasi-isi'>
+                                <div className="carousel-nominasi-box">
+                                    <div className="nom1">
+                                        <div className="img-container">
+                                            <img src={YodhaIchak} alt="YodhaIchak" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -117,4 +153,4 @@ function NominasiMC24() {
     )
 }
 
-export default NominasiMC24;
+export default NominasiDynamicDuo24;

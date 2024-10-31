@@ -8,17 +8,18 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar'; 
 
-import Chesa from "../assets/NOMINASI/PANUTAN/CHESA.png";
-import Daruma from "../assets/NOMINASI/PANUTAN/DARUMA.png";
-import FaizOda from "../assets/NOMINASI/PANUTAN/FAIZ_ODA.png";
-import Hobbit from "../assets/NOMINASI/PANUTAN/HOBBIT.png";
-import LordDibo from "../assets/NOMINASI/PANUTAN/LORD_DIBO.png";
-import Microwife from "../assets/NOMINASI/PANUTAN/MICROWIFE.png";
-import Xaka from "../assets/NOMINASI/PANUTAN/XAKA.png";
-import Yodha from "../assets/NOMINASI/PANUTAN/YODHA.png";
-import Yumaki from "../assets/NOMINASI/PANUTAN/YUMAKI.png";
+import BONNIEWALKER_FOTO from "../assets/DUA_EMPAT/NOMINASI/DJ_ANIKURA/BONNIEWALKER_FOTO.png";
+import DIHANESA_FOTO from "../assets/DUA_EMPAT/NOMINASI/DJ_ANIKURA/DIHANESA_FOTO.png";
+import EDDO_FOTO from "../assets/DUA_EMPAT/NOMINASI/DJ_ANIKURA/EDDO_FOTO.png";
+import EIR_FOTO from "../assets/DUA_EMPAT/NOMINASI/DJ_ANIKURA/EIR_FOTO.png";
+import RAISEAREBELION_FOTO from "../assets/DUA_EMPAT/NOMINASI/DJ_ANIKURA/RAISEAREBELION_FOTO.png";
+import RANRAN_FOTO from "../assets/DUA_EMPAT/NOMINASI/DJ_ANIKURA/RANRAN_FOTO.png";
+import RWBU_FOTO from "../assets/DUA_EMPAT/NOMINASI/DJ_ANIKURA/RWBU_FOTO.png";
+import RYXNIA_FOTO from "../assets/DUA_EMPAT/NOMINASI/DJ_ANIKURA/RYXNIA_FOTO.png";
+import YUUDACHI_FOTO from "../assets/DUA_EMPAT/NOMINASI/DJ_ANIKURA/YUUDACHI_FOTO.png";
 
-function NominasiPanutan24() {
+
+function NominasiDjAnikura24() {
     return (
         <div className="nominasi-container">
             <Container>
@@ -26,7 +27,7 @@ function NominasiPanutan24() {
                 <div className="judul">
                     <div className="text-wrapper">
                         <div className="text">
-                            NOMINASI WIBU PANUTAN 2024
+                            NOMINASI DJ ANIKURA 2024
                         </div>
                     </div>
                 </div>
@@ -50,7 +51,7 @@ function NominasiPanutan24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={Chesa} alt="Castro" className="img" />
+                                            <img src={BONNIEWALKER_FOTO} alt="BONNIEWALKER_FOTO" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -61,7 +62,7 @@ function NominasiPanutan24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={Daruma} alt="Castro" className="img" />
+                                            <img src={DIHANESA_FOTO} alt="DIHANESA_FOTO" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -72,7 +73,7 @@ function NominasiPanutan24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={FaizOda} alt="Castro" className="img" />
+                                            <img src={EDDO_FOTO} alt="EDDO_FOTO" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -83,7 +84,7 @@ function NominasiPanutan24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={Hobbit} alt="Castro" className="img" />
+                                            <img src={EIR_FOTO} alt="EIR_FOTO" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -94,7 +95,7 @@ function NominasiPanutan24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={LordDibo} alt="Castro" className="img" />
+                                            <img src={RAISEAREBELION_FOTO} alt="RAISEAREBELION_FOTO" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -105,7 +106,7 @@ function NominasiPanutan24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={Microwife} alt="Castro" className="img" />
+                                            <img src={RANRAN_FOTO} alt="RANRAN_FOTO" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -116,7 +117,7 @@ function NominasiPanutan24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={Xaka} alt="Castro" className="img" />
+                                            <img src={RWBU_FOTO} alt="RWBU_FOTO" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -127,7 +128,7 @@ function NominasiPanutan24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={Yodha} alt="Castro" className="img" />
+                                            <img src={RYXNIA_FOTO} alt="RYXNIA_FOTO" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -138,7 +139,7 @@ function NominasiPanutan24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={Yumaki} alt="Castro" className="img" />
+                                            <img src={YUUDACHI_FOTO} alt="YUUDACHI_FOTO" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -152,4 +153,4 @@ function NominasiPanutan24() {
     )
 }
 
-export default NominasiPanutan24;
+export default NominasiDjAnikura24;

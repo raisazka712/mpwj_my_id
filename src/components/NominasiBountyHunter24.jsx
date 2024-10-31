@@ -8,15 +8,17 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar'; 
 
-import JJF from "../assets/NOMINASI/EVENT/JJF.png";
-import JJW from "../assets/NOMINASI/EVENT/JJW.png";
-import MOERU from "../assets/NOMINASI/EVENT/MOERU.png";
-import NIPPONNATION from "../assets/NOMINASI/EVENT/NIPPON_NATIONS.png";
-import PARIPICO from "../assets/NOMINASI/EVENT/PARIPICO.png";
-import SHIAWASE from "../assets/NOMINASI/EVENT/SHIAWASE.png";
+import Echa_Scarlett from "../assets/DUA_EMPAT/NOMINASI/BOUNTY_HUNTER/Echa_Scarlett.png";
+import Fadli from "../assets/DUA_EMPAT/NOMINASI/BOUNTY_HUNTER/fadli.png";
+import Gallent from "../assets/DUA_EMPAT/NOMINASI/BOUNTY_HUNTER/Gallent.png"; 
+import Gepan from "../assets/DUA_EMPAT/NOMINASI/BOUNTY_HUNTER/Gepan.png";
+import Nguyen from "../assets/DUA_EMPAT/NOMINASI/BOUNTY_HUNTER/Nguyen.png";
+import Sisil from "../assets/DUA_EMPAT/NOMINASI/BOUNTY_HUNTER/Sisil.png";
+import Wataru from "../assets/DUA_EMPAT/NOMINASI/BOUNTY_HUNTER/Wataru.png";
+import Wealbird from "../assets/DUA_EMPAT/NOMINASI/BOUNTY_HUNTER/Wealbird.png";
+import Yoshika from "../assets/DUA_EMPAT/NOMINASI/BOUNTY_HUNTER/Yoshika.png";
 
-
-function NominasiEvent24() {
+function NominasiBountyHunter24() {
     return (
         <div className="nominasi-container">
             <Container>
@@ -24,7 +26,7 @@ function NominasiEvent24() {
                 <div className="judul">
                     <div className="text-wrapper">
                         <div className="text">
-                            NOMINASI EVENT OF THE YEAR 2024
+                            NOMINASI BOUNTY HUNTER 2024
                         </div>
                     </div>
                 </div>
@@ -48,7 +50,7 @@ function NominasiEvent24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={JJF} alt="JJF" className="img" />
+                                            <img src={Wataru} alt="Wataru" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -59,7 +61,7 @@ function NominasiEvent24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={JJW} alt="JJW" className="img" />
+                                            <img src={Echa_Scarlett} alt="Echa_Scarlett" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -70,7 +72,7 @@ function NominasiEvent24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={MOERU} alt="MOERU" className="img" />
+                                            <img src={Fadli} alt="Fadli" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -81,7 +83,7 @@ function NominasiEvent24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={NIPPONNATION} alt="NIPPONNATION" className="img" />
+                                            <img src={Gallent} alt="Gallent" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -92,7 +94,7 @@ function NominasiEvent24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={PARIPICO} alt="PARIPICO" className="img" />
+                                            <img src={Gepan} alt="Gepan" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -103,7 +105,40 @@ function NominasiEvent24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={SHIAWASE} alt="SHIAWASE" className="img" />
+                                            <img src={Nguyen} alt="Nguyen" className="img" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='carousel-nominasi-isi'>
+                                <div className="carousel-nominasi-box">
+                                    <div className="nom1">
+                                        <div className="img-container">
+                                            <img src={Sisil} alt="Sisil" className="img" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='carousel-nominasi-isi'>
+                                <div className="carousel-nominasi-box">
+                                    <div className="nom1">
+                                        <div className="img-container">
+                                            <img src={Wealbird} alt="Wealbird" className="img" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='carousel-nominasi-isi'>
+                                <div className="carousel-nominasi-box">
+                                    <div className="nom1">
+                                        <div className="img-container">
+                                            <img src={Yoshika} alt="Yoshika" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -117,4 +152,4 @@ function NominasiEvent24() {
     )
 }
 
-export default NominasiEvent24;
+export default NominasiBountyHunter24;

@@ -8,15 +8,19 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar'; 
 
-import EXTALIA_TOYS from "../assets/NOMINASI/SPOT/EXTALIA_TOYS.png";
-import HIKARI_STUDIO from "../assets/NOMINASI/SPOT/HIKARI_STUDIO.png";
-import KGYK from "../assets/NOMINASI/SPOT/KGYK.png";
-import SCH from "../assets/NOMINASI/SPOT/SCH.png";
-import SEVENSKY from "../assets/NOMINASI/SPOT/SEVENSKY.png";
-import TEASAURUS from "../assets/NOMINASI/SPOT/TEASAURUS.png";
+import CameliaNoir from "../assets/DUA_EMPAT/NOMINASI/CONTENT_CREATOR/CameliaNoir.png";
+import FanyAh from "../assets/DUA_EMPAT/NOMINASI/CONTENT_CREATOR/FanyAh.png";
+import ForyscaSaskia from "../assets/DUA_EMPAT/NOMINASI/CONTENT_CREATOR/ForyscaSaskia.png";
+import Jankenpo from "../assets/DUA_EMPAT/NOMINASI/CONTENT_CREATOR/Jankenpo.png";
+import KamekoJogja from "../assets/DUA_EMPAT/NOMINASI/CONTENT_CREATOR/KamekoJogja.png";
+import Kinoha from "../assets/DUA_EMPAT/NOMINASI/CONTENT_CREATOR/kinoha.png";
+import KochengRebahan from "../assets/DUA_EMPAT/NOMINASI/CONTENT_CREATOR/KochengRebahan.png";
+import KuchiKuci from "../assets/DUA_EMPAT/NOMINASI/CONTENT_CREATOR/KuchiKuci.png";
+import RuangObrol from "../assets/DUA_EMPAT/NOMINASI/CONTENT_CREATOR/RuangObrol.png";
+import Wealbird from "../assets/DUA_EMPAT/NOMINASI/CONTENT_CREATOR/Wealbird.png";
 
 
-function NominasiSpotPalingWibu24() {
+function NominasiContentCreator24() {
     return (
         <div className="nominasi-container">
             <Container>
@@ -24,7 +28,7 @@ function NominasiSpotPalingWibu24() {
                 <div className="judul">
                     <div className="text-wrapper">
                         <div className="text">
-                            NOMINASI SPOT PALING WIBU 2024
+                            NOMINASI CONTENT CREATOR WIBU 2024
                         </div>
                     </div>
                 </div>
@@ -48,7 +52,7 @@ function NominasiSpotPalingWibu24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={EXTALIA_TOYS} alt="EXTALIA_TOYS" className="img" />
+                                            <img src={CameliaNoir} alt="CameliaNoir" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -59,7 +63,7 @@ function NominasiSpotPalingWibu24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={HIKARI_STUDIO} alt="HIKARI_STUDIO" className="img" />
+                                            <img src={FanyAh} alt="FanyAh" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -70,7 +74,7 @@ function NominasiSpotPalingWibu24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={KGYK} alt="KGYK" className="img" />
+                                            <img src={ForyscaSaskia} alt="ForyscaSaskia" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -81,7 +85,7 @@ function NominasiSpotPalingWibu24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={SCH} alt="SCH" className="img" />
+                                            <img src={Jankenpo} alt="Jankenpo" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -92,7 +96,7 @@ function NominasiSpotPalingWibu24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={SEVENSKY} alt="SEVENSKY" className="img" />
+                                            <img src={KamekoJogja} alt="KamekoJogja" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -103,7 +107,51 @@ function NominasiSpotPalingWibu24() {
                                 <div className="carousel-nominasi-box">
                                     <div className="nom1">
                                         <div className="img-container">
-                                            <img src={TEASAURUS} alt="TEASAURUS" className="img" />
+                                            <img src={Kinoha} alt="Kinoha" className="img" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='carousel-nominasi-isi'>
+                                <div className="carousel-nominasi-box">
+                                    <div className="nom1">
+                                        <div className="img-container">
+                                            <img src={KochengRebahan} alt="KochengRebahan" className="img" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='carousel-nominasi-isi'>
+                                <div className="carousel-nominasi-box">
+                                    <div className="nom1">
+                                        <div className="img-container">
+                                            <img src={KuchiKuci} alt="KuchiKuci" className="img" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='carousel-nominasi-isi'>
+                                <div className="carousel-nominasi-box">
+                                    <div className="nom1">
+                                        <div className="img-container">
+                                            <img src={RuangObrol} alt="RuangObrol" className="img" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='carousel-nominasi-isi'>
+                                <div className="carousel-nominasi-box">
+                                    <div className="nom1">
+                                        <div className="img-container">
+                                            <img src={Wealbird} alt="Wealbird" className="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -117,4 +165,4 @@ function NominasiSpotPalingWibu24() {
     )
 }
 
-export default NominasiSpotPalingWibu24;
+export default NominasiContentCreator24;
