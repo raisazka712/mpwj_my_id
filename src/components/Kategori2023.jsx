@@ -12,7 +12,7 @@ import BestIdol from "../assets/KATEGORI/BEST_IDOL.png"
 import OriginalSong from "../assets/KATEGORI/ORIGINAL_SONG.png"
 import IdolTergumush from "../assets/KATEGORI/IDOL.png"
 
-import MC from "../assets/KATEGORI/MC.png"
+import MC from "../assets/KATEGORI/MC.png" 
 import Band from "../assets/KATEGORI/BAND.png"
 import SpotPalingWibu from "../assets/KATEGORI/SPOT.png"
 
@@ -25,7 +25,7 @@ import {useNavigate} from 'react-router-dom';
 const Kategori2023 = () => { 
   let navigate = useNavigate();
   return ( 
-    <div className="Kategori2023">
+    <div className="Kategori2023"> 
       <div>
         <div className="judulKategoriHome">
             Kategori Malam Penghargaan Wibu Jogja 2023

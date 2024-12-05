@@ -13,7 +13,7 @@ import RANRAN from "../assets/PERFORMER/RANRAN.png"
  
 
 const Performer23 = () => { 
-  return (
+  return ( 
     <div className="Performer23"> 
       <div>
         <div className="judulPerformer23">
