@@ -8,7 +8,7 @@ import MoreInfo23 from '../components/MoreInfo23';
 
 const Event23Page = () => {  
   return (
-    <div className='event23page'>
+    <div className='event23page'>  
       <header className="w-100 min-vh-100">
         <div className='event2024 w-100 min-vh-100'> 
           <Event23 />

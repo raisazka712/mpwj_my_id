@@ -3,8 +3,6 @@ import Header from "../components/Header";
 import Sejarah from "../components/SejarahMpwj";
 import KategoriHome from "../components/KategoriHome";
 import NominasiHome from "../components/NominasiHome";
-import PerformerHome from "../components/PerformerHome";
-import WoroWOro from "../assets/DUA_EMPAT/WOROWORO.png"
 
 import NominasiPrince24 from "../components/NominasiPrince24";
 import NominasiPrincess24 from "../components/NominasiPrincess24";
@@ -19,6 +17,11 @@ import NominasiContentCreator24 from '../components/NominasiContentCreator24';
 import NominasiGS24 from '../components/NominasiGS24';
 import NominasiKomunitas24 from '../components/NominasiKomunitas24';
 
+import WoroWoro24 from '../assets/DUA_EMPAT/Pengumuman.png';
+import Performer24 from '../components/Performer24';
+import MoreInfo24 from '../components/MoreInfo24';
+
+
 import {useNavigate} from 'react-router-dom'; 
 
 const HomePage = () => {
@@ -30,7 +33,7 @@ const HomePage = () => {
            <Header />  
            <Sejarah />
            <KategoriHome /> 
-           <NominasiHome /> 
+           <NominasiHome />  
  
            <NominasiPrince24 /> 
            <NominasiPrincess24 />
@@ -52,11 +55,13 @@ const HomePage = () => {
             </div> */}
            {/* <PerformerHome /> */}
             <div className="Event24Home">  
-              <div className="judulEvent24Home">
-                  Malam Penghargaan Wibu Jogja 2024 (Coming Soon)
+              <div className="judulEvent24Home"> 
+                  Malam Penghargaan Wibu Jogja 2024
               </div> 
-                <img src={WoroWOro} alt="WoroWOro" className="Comingsoon" />
-            </div> 
+                <img src={WoroWoro24} alt="WoroWoro24" className="Comingsoon" />
+              </div> 
+              <Performer24 />
+              <MoreInfo24 />
         </div>
       </header>
     </div> 
